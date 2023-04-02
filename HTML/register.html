@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title> Register </title>
+	</head>
+	<body>
+		<table>
+		<form method="post" action="profile.html" autocomplete="on">
+			<tr>
+			<td><label> UserName: </label></td>
+			<td><input type=text name="uname" /></td>
+			</tr>
+			<tr>
+			<td><label> Password : </label></td>
+			<td><input type=password name="password" /></td>
+			</tr>
+			<tr>
+			<td><label> Gender: </label></td>
+			<td><input type=radio name="gender" value="m" />
+			<label> male </label>
+		`	<input type=radio name="gender" value="f" />
+			<label> female </label></td>
+			</tr>
+			<tr>
+			<td><label> Intrests: </label></td>
+			<td><input type=checkbox name="intrests" value="Love Story" />
+			<label> Love Story </label>
+			<input type=checkbox name="intrests" value="Thriller" />
+			<label> Thriller </label>
+			<input type=checkbox name="intrests" value="Self Help" />
+			<label> Selp Help </label>
+			<input type=checkbox name="intrests" value="Horror" />
+			<label> Horror </label></td>
+			</tr>
+			<tr>
+			<td><label> age: </label></td>
+			<td><select name="class" >
+				<option value="18"> Below 18 </option>
+				<option value="30"> 18-30 </option>
+				<option value="31"> above 30 </option>
+			</select></td>
+			</tr>
+			<tr>
+			<td><label> Comments: </label></td>
+			<td><textarea row=2 cols=30 name="comments">
+			comment...
+			</textarea></td>
+			</tr>
+			<tr>
+			<td><input type=submit value="Register" /></td>
+			<td><input type=reset /></td>
+		</form>
+		</table>
+	</body>
+</html>
